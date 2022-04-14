@@ -56,12 +56,12 @@ export const BottomTabs: React.FC<Props> = ({
     { x: width / 1.01 + tabWidth / 19.5, y: 0 },
     { x: width + tabWidth / 6.5, y: 10 },
     {
-      x: width + tabWidth / 3.9,
-      y: tabWidth > 100 ? tabWidth / 3.2 : tabWidth / 2.5,
+      x: width + tabWidth / 3.2,
+      y: tabWidth > 100 ? tabWidth / 2.8 : tabWidth / 2.5,
     },
     {
-      x: width + tabWidth - tabWidth / 3.9,
-      y: tabWidth > 100 ? tabWidth / 3.2 : tabWidth / 2.5,
+      x: width + tabWidth - tabWidth / 3.2,
+      y: tabWidth > 100 ? tabWidth / 2.8 : tabWidth / 2.5,
     },
     { x: width + tabWidth - tabWidth / 6.5, y: 10 },
     { x: (width + tabWidth) * 1.01 - tabWidth / 19.5, y: 0 },
