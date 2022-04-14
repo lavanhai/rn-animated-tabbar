@@ -110,7 +110,7 @@ export const StaticTabbar: React.FC<StaticProps> = ({
                 }}
               >
                 <Icon />
-                <View style={{ marginTop: 8 }}>
+                <View style={{ marginTop: -8 }}>
                   <Text
                     style={{
                       color: textColor,
